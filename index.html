@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Feed</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/slick-theme.css"/>
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="activity">
+			<div class="activity__mark">
+				<img src="" alt="">
+				<h3></h3>
+			</div>
+			<div class="activity__info">
+				<div>
+					<h1>16<br>new<br>events</h1>
+				</div>
+				<a href="#">Open map</a>
+			</div>
+			<div class="activity__slider">
+				<div class="activity__slider-item">
+					<img src="img/slider/events.png" alt="Events">
+				</div>
+				<div class="activity__slider-item">
+					<img src="img/slider/hottest.png" alt="Hottest">
+				</div>
+				<div class="activity__slider-item">
+					<img src="img/slider/nearest.png" alt="Nearest">
+				</div>
+				<div class="activity__slider-item">
+					<img src="img/slider/tour.png" alt="Tour">
+				</div>
+			</div>
+		</div>
+		<div class="feed">
+			<div class="feed__item-container">
+				<div class="feed__title">
+					<h2>Feed</h2>
+				</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<div class="navigation__item navigation__item--feed">
+				<a href=""><img src="img/navigation/feed.png" alt="" ></a>
+				<a href="" class="current"><img src="img/navigation/feed_active.png" alt=""></a>
+			</div>
+			<div class="navigation__item navigation__item--events">
+				<a href="" class="current"><img src="img/navigation/events.png" alt="" ></a>
+				<a href=""><img src="img/navigation/events_active.png" alt="" ></a>
+			</div>
+			<div class="navigation__item navigation__item--search">
+				<a href="" class="current"><img src="img/navigation/search.png" alt="" ></a>
+				<a href=""><img src="img/navigation/search_active.png" alt="" ></a>
+			</div>
+			<div class="navigation__item navigation__item--profile">
+				<a href="" class="current"><img src="img/navigation/profile.png" alt="" ></a>
+				<a href=""><img src="img/navigation/profile_active.png" alt="" ></a>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/feed-init.js"></script>
+	<script src="js/navigation.js"></script>
+	<script src="js/swipe.js"></script>
+	<script src="js/slick-init.js"></script>
+	<script>
+		_createFeed(feedData, 'feed')
+
+		swipeElements()
+	</script>
+</body>
+</html>

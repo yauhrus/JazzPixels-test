@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Map</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="map__page-container">
+			<div class="map__container">
+				<div class="map" id="map">
+					
+				</div>
+				<div class="map__navigation">
+					<div class="map__events-button"></div>
+					<div class="map__markers"></div>
+				</div>
+			</div>
+			<div class="map__events-list">
+				<div class="map__events-header">
+					<div class="map__events-title">
+						<h2>Events</h2>
+						<h4>272 Upcoming events</h4>
+					</div>
+					<div class="map__events-hider"></div>
+				</div>
+			</div>
+			<div class="navigation">
+				<div class="navigation__item navigation__item--feed">
+					<a href=""><img src="img/navigation/feed.png" alt="" ></a>
+					<a href="" class="current"><img src="img/navigation/feed_active.png" alt=""></a>
+				</div>
+				<div class="navigation__item navigation__item--events">
+					<a href="" class="current"><img src="img/navigation/events.png" alt="" ></a>
+					<a href=""><img src="img/navigation/events_active.png" alt="" ></a>
+				</div>
+				<div class="navigation__item navigation__item--search">
+					<a href="" class="current"><img src="img/navigation/search.png" alt="" ></a>
+					<a href=""><img src="img/navigation/search_active.png" alt="" ></a>
+				</div>
+				<div class="navigation__item navigation__item--profile">
+					<a href="" class="current"><img src="img/navigation/profile.png" alt="" ></a>
+					<a href=""><img src="img/navigation/profile_active.png" alt="" ></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/googleMaps-init.js"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRlVosvFU4--iW5XlwEUxzx9qyVVAqRrc&callback=initMap"
+	async defer></script>
+	<script src="js/feed-init.js"></script>
+	<script src="js/navigation.js"></script>
+	<script src="js/swipe.js"></script>
+	<script src="js/map.js"></script>
+</body>
+</html>
