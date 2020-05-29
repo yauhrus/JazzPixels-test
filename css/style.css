@@ -141,6 +141,7 @@ iframe + div {
 	max-width: 812px;
 	width: 100%;
 	margin: 0 auto;
+	margin-bottom: 48px;
 }
 
 .feed, .map__events-list {
@@ -299,6 +300,14 @@ iframe + div {
 
 .feed__bookmark-container.active {
 	background: linear-gradient(26.66deg, #FF971C 20.96%, #FF6600 104.08%);
+}
+
+
+.feed + .navigation {
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+
 }
 
 .navigation {

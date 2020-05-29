@@ -41,7 +41,7 @@ $(document).ready(function(){
 		dots: true,
 		speed: 700
 
-	});
+	})
 
 	$('.slick-list').css({
 	  	'padding-right': ($('.activity').width() - 305)+ 'px'
@@ -76,6 +76,10 @@ $(document).ready(function(){
 	  						'line-height': '50px',
 	  						'font-family': 'Uni neue'
 	  					})
+
+	  					$('.activity__mark img').css({
+	  						'display': 'none'
+	  					})
 	  				}
 	  				else {
 	  					$('.activity__info h1').css({
@@ -83,11 +87,15 @@ $(document).ready(function(){
 	  						'line-height': '40px',
 	  						'font-family': 'SF Compact Display'
 	  					})
+
+	  					$('.activity__mark img').css({
+	  						'display': 'block'
+	  					})
 	  				}
 	  			}
 	  		}
 	  		
-	  	}, 300)
+	  	}, 250)
 	  	}
 	  	
 	})
