@@ -357,13 +357,11 @@ iframe + div {
 	position: relative;
 	width: 100%;
 	min-height: 534px;
-	height: 100%;
 }
 
 .map {
 	width: 100%;
 	min-height: 534px;
-	height: 100%;
 }
 
 .map__navigation {
