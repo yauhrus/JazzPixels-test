@@ -78,7 +78,7 @@ $(document).ready(function(){
 	  					})
 
 	  					$('.activity__mark img').css({
-	  						'display': 'none'
+	  						'opacity': 0
 	  					})
 	  				}
 	  				else {
@@ -89,7 +89,7 @@ $(document).ready(function(){
 	  					})
 
 	  					$('.activity__mark img').css({
-	  						'display': 'block'
+	  						'opacity': 1
 	  					})
 	  				}
 	  			}

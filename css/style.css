@@ -92,6 +92,7 @@ iframe + div {
 	width: 13px;
 	height: 15px;
 	margin-right: 11px;
+	opacity: 0;
 }
 
 
@@ -141,7 +142,6 @@ iframe + div {
 	max-width: 812px;
 	width: 100%;
 	margin: 0 auto;
-	margin-bottom: 48px;
 }
 
 .feed, .map__events-list {
@@ -169,6 +169,10 @@ iframe + div {
 }
 .feed__item-container:last-child .feed__item {
 	border-bottom: none;
+}
+
+.feed__item-container:last-child {
+	margin-bottom: 48px;
 }
 
 .feed__item {
