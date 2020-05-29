@@ -14,4 +14,4 @@ Map.
 1. Press on events button(bottom left side circle) to see events list(functional is the same from Homepage 2 paragraph). To hide events list press on small orange rectangle on top of the list.
 2. To go back to homepage press first icon from left on navigation bar.
 
-
+Tested on Iphone 6s/X. To check it on desktop - open the device simulator to have touch events.
