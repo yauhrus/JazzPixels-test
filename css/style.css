@@ -141,8 +141,8 @@ iframe + div {
 .feed {
 	min-width: 320px;
 	max-width: 812px;
-	width: 100%;
 	margin: 0 auto;
+	background-color: #151515;
 }
 
 .feed, .map__events-list {
