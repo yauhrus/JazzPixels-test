@@ -80,6 +80,10 @@ $(document).ready(function(){
 	  					$('.activity__mark img').css({
 	  						'opacity': 0
 	  					})
+	  					
+	  					$('.activity__mark h3').css({
+	  						'opacity': 0
+	  					})
 	  				}
 	  				else {
 	  					$('.activity__info h1').css({
@@ -89,6 +93,10 @@ $(document).ready(function(){
 	  					})
 
 	  					$('.activity__mark img').css({
+	  						'opacity': 1
+	  					})
+
+	  					$('.activity__mark h3').css({
 	  						'opacity': 1
 	  					})
 	  				}
