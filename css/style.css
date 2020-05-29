@@ -67,6 +67,7 @@ iframe + div {
 
 .page-wrapper {
 	width: 100%;
+	background-color: #151515;
 }
 
 .activity {
