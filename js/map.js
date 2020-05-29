@@ -1,6 +1,8 @@
 _createFeed(mapEvents, 'map__events-list')
 
 
+
+let googleMap = document.querySelector('.map')
 let mapContainer = document.querySelector('.map__container')
 let eventsButton = document.querySelector('.map__events-button')
 let eventsList = document.querySelector('.map__events-list')
@@ -8,6 +10,11 @@ let pageNavigation = document.querySelector('.navigation')
 let eventsHider = document.querySelector('.map__events-hider')
 
 eventsList.style.transform = 'translateY(' + (-eventsList.offsetHeight - mapContainer.offsetHeight) + 'px)'
+
+googleMap.style.height = ( window.innerHeight - 48 ) + 'px'
+console.log(googleMap)
+mapContainer.style.height = ( window.innerHeight - 48 ) + 'px'
+console.log(window.innerHeight)
 
 eventsButton.onclick = function() {
 	eventsList.style.opacity = 1
