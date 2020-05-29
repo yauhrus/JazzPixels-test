@@ -119,6 +119,7 @@ iframe + div {
 .activity__info a {
 	color: #FF781C;
 }
+
 .activity__slider {
 	display: flex;
 	padding-top: 32px;
@@ -380,6 +381,11 @@ iframe + div {
 	opacity: 0;
 	transition: transform 0.5s ease-in;
 }
+
+.map__events-list .feed__item-container:last-child {
+	margin-bottom: 0;
+}
+
 .map__events-button, .map__markers {
 	background-color: #000000;
 	background-repeat: no-repeat;
